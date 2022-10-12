@@ -6,7 +6,18 @@ Deel was developed with two main concepts in mind, one is to reduce the problem 
 
 Once the user opens the app, the app first detects the user's location, then the system itself feeds the location to a real-time database and the app will then show the user the latest promotions from nearby restaurants. Collecting the user's location data will ensure that they are kept up to date with the latest promotions from nearby restaurants. As soon as a restaurant uploads information about unsold food through the app, the user will be notified of food promotions at nearby restaurants. The user can then place an order for the food and the system will find a nearby delivery driver and assign them to pick up the order from the restaurant and deliver it to the user. 
 
-**Deel - has four different kinds of users who can benefit from it.**
+**Deel - has five different kinds of users who can benefit from it.**
+
+### Admin
+• To create new client profile.
+
+• To modify the order status.
+
+• To detect the delivery order status in real time.
+
+• To update client's information.
+
+• To illustrate all the placed orders from customers.
 
 ### Restaurant/ Hotel
 •	To upload their unsold foods through the application.
