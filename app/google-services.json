@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "23836178486",
+    "firebase_url": "https://deel-e15b4.firebaseio.com",
+    "project_id": "deel-e15b4",
+    "storage_bucket": "deel-e15b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23836178486:android:99f46629ae6820b2",
+        "android_client_info": {
+          "package_name": "com.example.harrisloi.deel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23836178486-uvgagmkhftpug2ov6sfiq71neutnebuq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.harrisloi.deel",
+            "certificate_hash": "2ef5ce08710c9b89f521e8d4ec7d0ac4a9c5ed92"
+          }
+        },
+        {
+          "client_id": "23836178486-b3t38pi3nerr9k6prpc9avmc6m916rbc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-LEuWZS4ExxD2VWUW441vquEUCdjHnhc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23836178486-b3t38pi3nerr9k6prpc9avmc6m916rbc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

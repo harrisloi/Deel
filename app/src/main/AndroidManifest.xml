@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.harrisloi.deel">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAFKe7hZtxkEHJi4Zes__xqdVBU5_TBCDY" />
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sign_Up_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Customer_Main"
+            android:label="@string/title_activity_customer__main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Vendor_Main"
+            android:label="@string/title_activity_vendor__main" />
+        <activity
+            android:name=".Driver_Main"
+            android:label="@string/title_activity_driver__main" />
+        <activity
+            android:name=".FoodList"
+            android:screenOrientation="portrait" />
+        <activity android:name=".FoodDetail" />
+        <activity android:name=".Cart" />
+        <activity android:name=".OrderStatus" />
+        <activity android:name=".OrderStatusVendor" />
+
+        <service
+            android:name=".Service.ListenOrder"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".Service.ListenOrderVendor"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".OrderDetail" />
+        <activity
+            android:name=".admin_main"
+            android:label="Deel"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".AdminCreateClient" />
+        <activity
+            android:name=".AdminShipper"
+            android:label="@string/title_activity_admin_shipper"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminVendor"
+            android:label="@string/title_activity_admin_vendor"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminHistory"
+            android:label="@string/title_activity_admin_history"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminAccount"
+            android:label="@string/title_activity_admin_account"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".AdminCreateShipper" />
+        <activity android:name=".AdminCreateVendor" />
+
+        <service
+            android:name=".Service.ListenOrderShipper"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".TrackingOrderShipper"
+            android:label="@string/title_activity_tracking_order_shipper" />
+        <activity
+            android:name=".TrackingOrderClient"
+            android:label="@string/title_activity_tracking_order_client"></activity>
+    </application>
+
+</manifest>
